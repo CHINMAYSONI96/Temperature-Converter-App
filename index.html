@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon links-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./Image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Image/favicon-16x16.png">
+    <link rel="manifest" href="./Image/site.webmanifest">
+    <link rel="mask-icon" href="./Image/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--Title of webpage-->
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" type="text/css" href="./style/Style.css">
+</head>
+<body>
+    <div id="headingText">
+            <h1>Welcome ! to Temperature-Converter App</h1>&nbsp;<img src="./Image/Layer4.png" width="50" height="70" id="headingImg">
+    </div>
+    <!--Temperature converter input area starts from here-->
+    <div id="mainblock">
+        <h3>Temperature Converter</h3>
+        <input type="number" id="input1" value="0">
+        <select>
+            <option value="degC">Celcius</option>
+            <option value="degF">Fahrenheit</option>
+            <option value="degK">Kelvin</option>
+        </select>
+        <br>
+        <input type="number" id='input2' value="0">
+        <select>
+            <option value="degC">Celcius</option>
+            <option value="degF" selected>Fahrenheit</option>
+            <option value="degK">Kelvin</option>
+        </select>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
